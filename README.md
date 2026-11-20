@@ -20,6 +20,11 @@ website · branch-wise data · full history with CSV export · automatic updates
 > of disk space. A macOS (Apple Silicon) `.dmg` is attached to a release when it
 > is available.
 
+![Taking attendance with AmarProsno Face Attendance](docs/images/6-attendance.png)
+
+*The screenshots on this page use demo data — a made-up school and made-up
+names. The face pictures are placeholders.*
+
 ---
 
 ## 1. Install
@@ -40,6 +45,10 @@ than one branch, pick the branch you work in; you will only see that branch's
 people and attendance. You can change it later with **Switch branch** at the
 bottom left.
 
+![Login screen](docs/images/1-login.png)
+
+![Choose the branch to work in](docs/images/2-branch.png)
+
 > The first login needs internet. After that the app keeps you signed in, so
 > it opens and works even when the internet is down.
 
@@ -52,6 +61,8 @@ the website first.**
 
 In the app, open **Students & Staff** and click **Download list**. Use the
 filters to find people quickly:
+
+![Students and staff list with filters](docs/images/3-list.png)
 
 | Filter | What it does |
 |---|---|
@@ -69,8 +80,12 @@ filters to find people quickly:
 4. Click **Confirm & save**. Nothing is saved until you confirm; **Cancel**
    leaves the old photos as they were.
 
+![Enrolling a face: front and right are taken, left is next](docs/images/4-enroll.png)
+
 Later, click **✔ photos** in the *Face* column (or **Photos**) to look at the
 saved photos, and **Re-enroll** to change them.
+
+![The saved photos of one person](docs/images/5-photos.png)
 
 **For good results:** one face in the frame · face lit from the front, not
 from behind · close enough that the face is clearly visible · no cap or mask.
@@ -102,6 +117,8 @@ decided by amarprosno.com.
 - **Closed the app?** Waiting records are still there and are sent the next
   time you open it and the internet is available.
 
+![Working offline: 2 records are waiting and will be sent by themselves](docs/images/7-offline.png)
+
 If the sidebar says *Session expired*, log in again — the records stay safe and
 are sent after you log in.
 
@@ -112,6 +129,8 @@ branch — including what is already sent. Filter by date (today, last 7 / 30
 days, custom), type, in / out and sync status, search by name or ID, click
 **View** to open the camera snapshot taken at that moment, and use
 **Export CSV** to open the records in Excel.
+
+![Attendance history](docs/images/8-history.png)
 
 ## 8. Updates
 
